@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 .nav-bar {
     background-color: #333646;
+    width: 100%;
     height: 80px;
 }
 
@@ -15,10 +17,6 @@
 .nav-bar .nav-list {
     float: right;
     margin-top: 20px;
-}
-
-.nav-bar .nav-list ul {
-    justify-content: center;
 }
 
 .nav-bar .nav-list ul li {
@@ -34,7 +32,8 @@
     border-radius: 5px;
 }
 
-.active, a:hover{
+.active,
+a:hover {
     background-color: white;
     transition: 0.5s;
 }
@@ -44,17 +43,19 @@
     height: auto;
     margin-top: 15px;
     margin-left: 15px;
-         
+
 }
 
 
-.checkbtn{
+.checkbtn {
     color: white;
     font-size: 30px;
     float: right;
     margin: 10px;
+    cursor: pointer;
 }
 
-#check{
-    display:none ;
+#check {
+    display: none;
 }
+
