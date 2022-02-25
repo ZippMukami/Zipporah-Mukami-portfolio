@@ -28,14 +28,15 @@
 
 .nav-bar .nav-list ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(240, 191, 76);
     font-size: 15px;
     padding: 5px;
     border-radius: 5px;
 }
 
-.nav-bar .nav-list ul li a:hover {
-    background-color: blue;
+.active, a:hover{
+    background-color: white;
+    transition: 0.5s;
 }
 
 .logo {
@@ -50,4 +51,10 @@
 .checkbtn{
     color: white;
     font-size: 30px;
+    float: right;
+    margin: 10px;
+}
+
+#check{
+    display:none ;
 }
