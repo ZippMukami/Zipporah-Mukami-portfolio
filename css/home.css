@@ -101,10 +101,6 @@ margin: 30px;
 
 }
 
-button{
-    margin-top: 30px;
-    padding: 10px;
-}
 
 /*
 .page1 .intro h3{
@@ -152,4 +148,18 @@ button{
 .text1 p{
     font-weight: 300;
     color: white;
+}
+
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #f9004d;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    /* box-shadow: #354633; */
+}
+
+button:hover{
+    background-color: rgb(226, 176, 10);
 }
