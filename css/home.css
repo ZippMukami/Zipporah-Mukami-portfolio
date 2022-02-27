@@ -159,7 +159,6 @@ button{
     color: white;
     border-radius: 20px;
     border: none;
-    /* box-shadow: #354633; */
 }
 
 button:hover{
@@ -173,26 +172,20 @@ button:hover{
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     color: white;
 }
 
-.introP3{
-    margin: 30px;
-}
-
-.introP3 h2{
-color: #f9004d;
-padding-top: 30px ;
-}
-
-.introP3 p{
-    padding-top: 30px;
-}
-
 .skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: white;
     margin-left: 100px;
+    text-align: center;
+    margin-top: 50px;
 }
+
+
 
