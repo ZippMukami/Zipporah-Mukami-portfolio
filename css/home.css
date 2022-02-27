@@ -69,20 +69,29 @@ a:hover {
     background-color: #012a33;
     display: flex;
     align-items: center;
+    text-align: left;
     justify-content: space-between;
     width: 100%;
     height: 100vh;
+    padding: 30px;
 }
 
+.profile-pic{
+    flex: 3;
+}
+.profile-pic h1{
+    font-size: 60px;
+}
+
+.intro{
+    flex: 2;
+}
 
 
 
 .page1 .profile-pic img {
     margin: 30px;
 }
-
-
-
 
 .page2 {
     background-color: #333646;
@@ -258,7 +267,7 @@ p {
 }
 
 .projectsP4 h4,
-p {
+.projectsP4 p {
     padding: 20px 0;
     text-align: center;
 }
