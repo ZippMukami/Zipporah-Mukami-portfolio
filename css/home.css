@@ -123,12 +123,15 @@ a:hover {
 .About {
     display: flex;
     flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .About img {
     margin: 30px;
     width: 500px;
     height: auto;
+    opacity: 0.5;
 }
 
 .text1 {
@@ -153,7 +156,8 @@ a:hover {
     color: white;
 }
 
-button {
+button,
+.button {
     margin-top: 30px;
     padding: 10px 20px;
     background-color: #f9004d;
@@ -162,7 +166,13 @@ button {
     border: none;
 }
 
-button:hover {
+.button {
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+button:hover,
+.button:hover {
     background-color: rgb(226, 176, 10);
 }
 
@@ -178,6 +188,11 @@ button:hover {
     color: white;
 }
 
+.page3 h2 {
+    color: #f9004d;
+    font-size: 40px;
+}
+
 .introP3 {
     margin-top: 50px;
 }
@@ -191,6 +206,11 @@ button:hover {
     margin-top: 50px;
 }
 
+.skills i {
+    font-size: 50px;
+    color: #fcfc;
+}
+
 .skills h4,
 p {
     padding: 10px;
@@ -201,7 +221,7 @@ p {
     height: auto;
     margin-left: 80px;
     padding: 30px;
-
+    border-bottom: 2px solid #fcfc;
 }
 
 .skill2 {
@@ -209,6 +229,7 @@ p {
     height: auto;
     margin-left: 80px;
     padding: 30px;
+    border-bottom: 2px solid #fcfc;
 }
 
 .skill3 {
@@ -216,6 +237,7 @@ p {
     height: auto;
     margin-left: 80px;
     padding: 30px;
+    border-bottom: 2px solid #fcfc;
 }
 
 .skill4 {
@@ -223,15 +245,18 @@ p {
     height: auto;
     margin-left: 80px;
     padding: 30px;
+    border-bottom: 2px solid #fcfc;
 }
 
-.projects {
+.projects .page4 {
     background-color: #333646;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
+
 
 .projectsP4 {
     display: flex;
@@ -242,18 +267,36 @@ p {
     width: 200px;
 }
 
+.projectsP4 h4,
+p {
+    padding: 0, 10px;
+}
+
 .project1 {
     width: 50%;
     height: auto;
     margin-left: 80px;
     padding: 30px;
 }
+
+.projectsP4 h4 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.projectsP4 p {
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
 .project2 {
     width: 50%;
     height: auto;
     margin-left: 80px;
     padding: 30px;
 }
+
 .project3 {
     width: 50%;
     height: auto;
@@ -261,3 +304,20 @@ p {
     padding: 30px;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.page5{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
+span{
+  color: #f9004d;
+}
+   
