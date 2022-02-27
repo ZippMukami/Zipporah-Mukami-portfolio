@@ -68,28 +68,13 @@ a:hover {
     background-position: center;
     background-color: #012a33;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    text-align: left !important;
     justify-content: space-between;
     width: 100%;
     height: 100vh;
-    padding: 0 60px;
 }
 
-.profile-pic{
-    flex: 4;
-}
 
-.profile-pic h1{
-    font-size: 60px;
-}
-.intro{
-    flex: 2;
-}
-.intro p{
-    padding-left: 0;
-}
 
 
 .page1 .profile-pic img {
@@ -121,7 +106,6 @@ a:hover {
 .text1 {
     margin: 20px;
     margin-top: 50px;
-    padding-left: 0;
 }
 
 .text1 h1 {
@@ -274,7 +258,7 @@ p {
 }
 
 .projectsP4 h4,
-.projectsP4 p {
+p {
     padding: 20px 0;
     text-align: center;
 }
