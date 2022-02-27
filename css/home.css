@@ -34,7 +34,7 @@
 
 .active,
 a:hover {
-    background-color:#f9004d;
+    background-color: #f9004d;
 
     transition: 0.5s;
 }
@@ -63,7 +63,7 @@ a:hover {
 .page1 {
     background-image: url("/images/background-crpd.png");
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     background-color: black;
     display: flex;
@@ -73,32 +73,32 @@ a:hover {
     height: 100vh;
 }
 
-.page1 .profile-pic{
-  text-align: center;
+.page1 .profile-pic {
+    text-align: center;
 }
 
- .page1 .profile-pic h1 {
+.page1 .profile-pic h1 {
     color: #f9004d;
     font-weight: 500;
     font-size: 50px;
 }
 
-.page1 .profile-pic h4{
-font-weight: 400;
-font-size: 20px;
-color: white;
-} 
+.page1 .profile-pic h4 {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
 
 
 
 
-.page1 .profile-pic img{
-margin: 30px;
+.page1 .profile-pic img {
+    margin: 30px;
 }
 
 
 .page1 .intro {
-   color: white;
+    color: white;
 
 }
 
@@ -115,44 +115,45 @@ margin: 30px;
  */
 
 
-.page2{
+.page2 {
     background-color: #333646;
 }
 
 
-.About{
+.About {
     display: flex;
     flex-direction: row;
 }
 
-.About img{
+.About img {
     margin: 30px;
     width: 500px;
     height: auto;
 }
-.text1{
+
+.text1 {
     text-align: center;
     margin: 20px;
     margin-top: 50px;
 }
 
-.text1 h1{
+.text1 h1 {
     color: #f9004d;
 
 }
 
-.text1 h3{
+.text1 h3 {
     font-weight: 500;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.text1 p{
+.text1 p {
     font-weight: 300;
     color: white;
 }
 
-button{
+button {
     margin-top: 30px;
     padding: 10px 20px;
     background-color: #f9004d;
@@ -161,11 +162,11 @@ button{
     border: none;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(226, 176, 10);
 }
 
-.page3{
+.page3 {
     background-image: url(/images/tree.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,15 +178,49 @@ button:hover{
     color: white;
 }
 
-.skills{
+.introP3 {
+    margin-top: 50px;
+}
+
+.skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
-    margin-left: 100px;
     text-align: center;
     margin-top: 50px;
 }
 
+.skills h4,
+p {
+    padding: 10px;
+}
 
+.skill1 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
 
+}
+
+.skill2 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
+
+.skill3 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
+
+.skill4 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
