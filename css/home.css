@@ -93,10 +93,17 @@ a:hover {
     margin: 30px;
 }
 
+@media (max-width: 478px) {
+    .page1{
+        flex-direction: column;
+        /* background-position: center bottom; */
+
+    }
+}
+
 .page2 {
     background-color: #333646;
 }
-
 
 .About {
     display: flex;
@@ -108,8 +115,24 @@ a:hover {
 .About img {
     margin: 30px;
     width: 500px;
-    height: auto;
     opacity: 0.5;
+}
+
+
+@media (max-width: 478px){
+    .About {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+    .About img{
+        /* display: block; */
+        margin: 0;
+width: 100%;
+    }
+    
 }
 
 .text1 {
@@ -246,6 +269,17 @@ p {
     padding: 30px;
     border-bottom: 2px solid #fcfc;
 }
+@media (max-width: 478px){
+    .skills{
+        flex-direction: column;
+    }
+    .skill1, .skill2, .skill3, .skill4{
+        width: 100%;
+        border-top: none;
+        border-bottom: 2px solid #fcfc;
+        margin-left: 0;
+    }
+}
 
 .projects .page4 {
     background-color: #333646;
@@ -270,6 +304,27 @@ p {
 .projectsP4 p {
     padding: 20px 0;
     text-align: center;
+}
+
+@media (max-width: 478px){
+    .intro-projects h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    .projects .page4{
+        padding: 20px;
+    }
+    .projectsP4{
+        flex-direction: column;
+    }
+    .projectsP4 .project1, 
+    .projectsP4 .project2, 
+    .projectsP4 .project3,
+    .projectsP4 .project4{
+        width: 100%;
+        margin-left: 10px;
+
+    }
 }
 
 .project1 {
