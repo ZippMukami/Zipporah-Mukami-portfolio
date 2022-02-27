@@ -65,7 +65,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
-    background-color: #666;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -86,6 +86,7 @@ a:hover {
 .page1 .profile-pic h4{
 font-weight: 400;
 font-size: 20px;
+color: white;
 } 
 
 
@@ -166,5 +167,16 @@ button:hover{
 }
 
 .page3{
-    background-color: #666;
+    background-image: url(/images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.skills{
+    color: white;
 }
