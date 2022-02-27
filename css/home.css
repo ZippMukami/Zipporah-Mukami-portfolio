@@ -224,3 +224,40 @@ p {
     margin-left: 80px;
     padding: 30px;
 }
+
+.projects {
+    background-color: #333646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsP4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectsP4 img {
+    width: 200px;
+}
+
+.project1 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
+.project2 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
+.project3 {
+    width: 50%;
+    height: auto;
+    margin-left: 80px;
+    padding: 30px;
+}
+
