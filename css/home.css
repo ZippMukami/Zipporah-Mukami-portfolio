@@ -63,7 +63,7 @@ a:hover {
 }
 
 .page1 {
-    background-image: url("/images/background-crpd.png");
+    background-image: url("../images/background-crpd.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
