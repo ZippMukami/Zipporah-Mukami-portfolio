@@ -366,7 +366,7 @@ p {
 }
 
 .footer {
-    background-image: url("/images/brown-gradient.jpg");
+    background-image: url(/images/brown-gradient.jpg);
     color: white;
     display: flex;
     flex-direction: column;
