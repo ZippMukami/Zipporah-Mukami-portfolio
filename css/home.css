@@ -191,7 +191,7 @@ button:hover,
     padding-bottom: 50px;
 }
 .overlay{
-    background-image: url('../images/tree.jpg');
+    background-image: url("/images/tree.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -366,7 +366,9 @@ p {
 }
 
 .footer {
+
     background-image: url("../images/brown-gradient.jpg");
+
     color: white;
     display: flex;
     flex-direction: column;
